@@ -169,8 +169,8 @@
         float: right ;
         border-radius: 50% ;
         margin: -10px ;
-        width: auto; 
-        max-height: 100px;
+        width: 100px;
+        height: auto;
     } 
 
     #english {
