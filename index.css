@@ -180,13 +180,6 @@
         margin: 5px 5px 0 0 ;
     }
 
-    .profil-img:hover {
-        inline-size: 300px ;
-        block-size: 300px ;
-        margin: -20px -20px ;
-        transition: 0.6s ;
-    } 
-
     .intro {
         border-radius: 10px ;
         padding: 30px 30px 0 0 ;
@@ -511,24 +504,6 @@
         block-size: 500px ;
     }
 
-    .profil-img:hover {
-        display: flex ;
-        text-align: center ;
-        inline-size: 120px ;
-        block-size: 120px ;
-        margin: 0 auto ;
-        padding: 5px 0 0 10px ;
-    } 
-
-    .profil-img:not(:hover) {
-        display: flex ;
-        text-align: center ;
-        inline-size: 120px ;
-        block-size: 120px ;
-        margin: 0 auto ;
-        padding: 5px 0 0 10px ;
-    } 
-
     .element-line {
         display: block ;
         padding: 5px 0 0 0 ;
@@ -680,24 +655,6 @@
         block-size: 500px ;
     }
 
-    .profil-img:hover {
-        display: flex ;
-        text-align: center ;
-        inline-size: 180px ;
-        block-size: 180px ;
-        margin: 0 auto ;
-        padding: 5px 0 0 10px ;
-    } 
-
-    .profil-img:not(:hover) {
-        display: flex ;
-        text-align: center ;
-        inline-size: 180px ;
-        block-size: 180px ;
-        margin: 0 auto ;
-        padding: 5px 0 0 10px ;
-    } 
-
     .element-line {
         display: block ;
         padding: 5px 0 0 0 ;
@@ -807,24 +764,6 @@
         line-height: 0.3cm ;
         block-size: 500px ;
     }
-
-    .profil-img:hover {
-        display: flex ;
-        text-align: center ;
-        inline-size: 180px ;
-        block-size: 180px ;
-        margin: 0 auto ;
-        padding: 5px 0 0 10px ;
-    } 
-
-    .profil-img:not(:hover) {
-        display: flex ;
-        text-align: center ;
-        inline-size: 180px ;
-        block-size: 180px ;
-        margin: 0 auto ;
-        padding: 5px 0 0 10px ;
-    } 
 
     .element-line {
         display: block ;
