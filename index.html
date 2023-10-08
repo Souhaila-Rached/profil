@@ -6,9 +6,8 @@
         <link rel="stylesheet" type= "text/css" href="reset.css" />
         <link rel="stylesheet" type= "text/css" href="index.css" />
         <script src="https://kit.fontawesome.com/778afd4245.js" crossorigin="anonymous"></script>
-
-    </head>
     <title>CV de Souhailla RACHED</title>
+    </head>
     <body onload="R1800();">
         <div class="notice">Veuillez visionner sur un écran plus large &#128521</div>
         <main>
@@ -195,38 +194,37 @@
 
             <div class="white-space2"></div>
         </main>
+                <script language="javascript">
+                function R1800() {
+                var wdth = 1800; 
+                document.body.style.zoom = screen.width/1800;
+                }
+            </script>
+            <script>
+                let mybutton = document.getElementById("btn-scroll-top");
+                        
+                window.onscroll = function() {
+                    scrollFunction()
+                };
+            
+                function scrollFunction() {
+                if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            </script>
+            <script language="javascript">
+                function scrollToTop() {
+                    window.scrollTo(0, 0);
+                }
+            </script>
+            <script language="javascript">
+                function myFunction() {
+                   var element = document.body;
+                   element.classList.toggle("dark-mode");
+                }
+            </script>
     </body>
-
-    <script language="javascript">
-        function R1800() {
-        var wdth = 1800; 
-        document.body.style.zoom = screen.width/1800;
-        }
-    </script>
-    <script>
-        let mybutton = document.getElementById("btn-scroll-top");
-                
-        window.onscroll = function() {
-            scrollFunction()
-        };
-    
-        function scrollFunction() {
-        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
-    }
-    </script>
-    <script>
-        function scrollToTop() {
-            window.scrollTo(0, 0);
-        }
-    </script>
-    <script>
-        function myFunction() {
-           var element = document.body;
-           element.classList.toggle("dark-mode");
-        }
-    </script>
 </html>
