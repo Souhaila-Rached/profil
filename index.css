@@ -458,6 +458,11 @@
     .switch {
             display: none ;
         }
+
+    .profil-img {
+       margin: -5px -7px 0px 41%;
+       inline-size: 150px;
+       }
     }
 
 @media screen and (min-width: 270px) and (max-width: 417px) {
@@ -627,6 +632,11 @@
     .switch {
         display: none ;
       }
+
+    .profil-img {
+       margin: -5px -7px 0px 41%;
+       inline-size: 150px;
+     }
 }
 
 @media screen and (min-width: 418px) and (max-width: 500px) {
@@ -748,6 +758,11 @@
     .switch {
         display: none ;
       }
+
+    .profil-img {
+       margin: -5px -7px 0px 41%;
+       inline-size: 150px;
+    }
 }
 
 @media screen and (min-width: 501px) and (max-width: 780px) {
@@ -774,7 +789,12 @@
 
     .switch {
         display: none ;
-      }
+    }
+
+    .profil-img {
+       margin: -5px -7px 0px 41%;
+       inline-size: 150px;
+    }
 }
 
 @media screen and (min-width: 417px) and (max-width: 1024px) {
